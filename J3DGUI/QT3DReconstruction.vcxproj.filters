@@ -215,8 +215,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\openMVS\build\openMVS\CMakeFiles\2380bda70809fc05df5a494dc6e05e0c\Viewer_CXX_prefix.hxx.rule">
-      <Filter>Cmake Rules</Filter>
-    </None>
+    <None Include="D:\package\vs2015\openMVS\build\openMVS\CMakeFiles\2380bda70809fc05df5a494dc6e05e0c\Viewer_CXX_prefix.hxx.rule" />
   </ItemGroup>
 </Project>

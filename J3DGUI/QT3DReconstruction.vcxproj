@@ -80,7 +80,7 @@
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="QtSettings">
-    <QtInstall>5.14.2_msvc2017_64</QtInstall>
+    <QtInstall>5.12.3_msvc2017_64</QtInstall>
     <QtModules>core;gui;widgets</QtModules>
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>
@@ -90,7 +90,7 @@
     <QtBuildConfig>release</QtBuildConfig>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="QtSettings">
-    <QtInstall>5.14.2_msvc2017_64</QtInstall>
+    <QtInstall>5.12.3_msvc2017_64</QtInstall>
     <QtModules>core;gui;widgets</QtModules>
     <QtBuildConfig>release</QtBuildConfig>
   </PropertyGroup>
@@ -167,7 +167,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /SAFESEH:NO /bigobj /Zm170 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\openMVS\Boost\boost_1_67_0;C:\openMVS\src;C:\openMVS\Eigen;C:\openMVS\build\openCV\install\include;C:\openMVS\OSG\include;..\J3DViewRender\include;C:\openMVS\gdal\include;C:\openMVS\glew-2.1.0\include;C:\openMVS\glfw3\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\package\vs2015\openMVS\Boost\boost_1_67_0;D:\package\vs2015\openMVS\src;D:\package\vs2015\openMVS\Eigen;D:\package\vs2015\openMVS\build\openCV\install\include;D:\package\vs2015\openMVS\OSG\include;..\J3DViewRender\include;D:\package\vs2015\openMVS\gdal\include;D:\package\vs2015\openMVS\glew-2.1.0\include;D:\package\vs2015\openMVS\glfw3\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=1;_USE_OPENMP;_USE_OPENGL;_USE_BOOST;_USE_EIGEN;_USE_NONFREE;_USE_FAST_FLOAT2INT;_USE_FAST_CBRT;_USE_SSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>true</OpenMPSupport>
@@ -185,7 +185,7 @@
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
     </QtUic>
     <Link>
-      <AdditionalLibraryDirectories>$(Qt_LIBPATH_);C:\openMVS\OSG\lib;C:\openMVS\gdal\lib;..\x64\Release;C:\openMVS\build\openMVS\lib\vc15\x64\Release;C:\openMVS\jpeg-9d;C:\openMVS\build\openCV\install\x64\vc15\lib;C:\openMVS\Boost\boost_1_67_0\lib64-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(Qt_LIBPATH_);D:\package\vs2015\openMVS\OSG\lib;D:\package\vs2015\openMVS\gdal\lib;..\x64\Release;D:\package\vs2015\openMVS\build\openMVS\lib\vc15\x64\Release;D:\package\vs2015\openMVS\jpeg-9d;D:\package\vs2015\openMVS\build\openCV\install\x64\vc15\lib;D:\package\vs2015\openMVS\Boost\boost_1_67_0\lib64-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(Qt_LIBS_);MVS.lib;Math.lib;IO.lib;Common.lib;libjpeg.lib;J3DViewRender.lib;gdal_i.lib;opencv_world341.lib;opencv_img_hash341.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions> /SAFESEH:NO /machine:x64 /FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
       <LinkTimeCodeGeneration>
@@ -209,13 +209,13 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\openMVS\Boost\boost_1_67_0;C:\openMVS\src;C:\openMVS\Eigen;C:\openMVS\build\openCV\install\include;C:\openMVS\OSG\include;..\J3DViewRender\include;C:\openMVS\gdal\include;C:\openMVS\glew-2.1.0\include;C:\openMVS\glfw3\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\package\vs2015\openMVS\Boost\boost_1_67_0;D:\package\vs2015\openMVS\src;D:\package\vs2015\openMVS\Eigen;D:\package\vs2015\openMVS\build\openCV\install\include;D:\package\vs2015\openMVS\OSG\include;..\J3DViewRender\include;D:\package\vs2015\openMVS\gdal\include;D:\package\vs2015\openMVS\glew-2.1.0\include;D:\package\vs2015\openMVS\glfw3\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_WIN32;_HAS_EXCEPTIONS=1;_USE_OPENMP;_USE_OPENGL;_USE_BOOST;_USE_EIGEN;_USE_NONFREE;_USE_FAST_FLOAT2INT;_USE_FAST_CBRT;_USE_SSE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(Qt_LIBPATH_);C:\openMVS\OSG\lib;C:\openMVS\gdal\lib;..\x64\Debug;C:\openMVS\build\openMVS\lib\vc15\x64\Debug;C:\openMVS\jpeg-9d;C:\openMVS\build\openCV\install\x64\vc15\lib;C:\openMVS\Boost\boost_1_67_0\lib64-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(Qt_LIBPATH_);D:\package\vs2015\openMVS\OSG\lib;D:\package\vs2015\openMVS\gdal\lib;..\x64\Debug;D:\package\vs2015\openMVS\build\openMVS\lib\vc15\x64\Debug;D:\package\vs2015\openMVS\jpeg-9d;D:\package\vs2015\openMVS\build\openCV\install\x64\vc15\lib;D:\package\vs2015\openMVS\Boost\boost_1_67_0\lib64-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(Qt_LIBS_);MVS.lib;Math.lib;IO.lib;Common.lib;libjpeg.lib;J3DViewRender.lib;gdal_i.lib;opencv_world341d.lib;opencv_img_hash341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /FORCE:MULTIPLE</AdditionalOptions>
     </Link>
@@ -294,24 +294,24 @@
     <Image Include="J3D_GUI.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\openMVS\build\openMVS\libs\Common\Common.vcxproj">
+    <ProjectReference Include="D:\package\vs2015\openMVS\build\openMVS\libs\Common\Common.vcxproj">
       <Project>{3ab3ddde-d4d6-3532-b8e7-00e1560237ae}</Project>
     </ProjectReference>
-    <ProjectReference Include="C:\openMVS\build\openMVS\libs\IO\IO.vcxproj">
+    <ProjectReference Include="D:\package\vs2015\openMVS\build\openMVS\libs\IO\IO.vcxproj">
       <Project>{9a08980a-6021-36c8-93a1-7242396ea98b}</Project>
     </ProjectReference>
-    <ProjectReference Include="C:\openMVS\build\openMVS\libs\Math\Math.vcxproj">
+    <ProjectReference Include="D:\package\vs2015\openMVS\build\openMVS\libs\Math\Math.vcxproj">
       <Project>{a68b7dbc-0b6d-39b2-ba9b-46820bf45041}</Project>
     </ProjectReference>
-    <ProjectReference Include="C:\openMVS\build\openMVS\libs\MVS\MVS.vcxproj">
+    <ProjectReference Include="D:\package\vs2015\openMVS\build\openMVS\libs\MVS\MVS.vcxproj">
       <Project>{e9359f73-512c-36d7-9a94-2f9767e14348}</Project>
     </ProjectReference>
-    <ProjectReference Include="C:\openMVS\build\openMVS\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="D:\package\vs2015\openMVS\build\openMVS\ZERO_CHECK.vcxproj">
       <Project>{43cb7236-de9b-395f-a869-d014a47d82b7}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\openMVS\build\openMVS\CMakeFiles\2380bda70809fc05df5a494dc6e05e0c\Viewer_CXX_prefix.hxx.rule" />
+    <None Include="D:\package\vs2015\openMVS\build\openMVS\CMakeFiles\2380bda70809fc05df5a494dc6e05e0c\Viewer_CXX_prefix.hxx.rule" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

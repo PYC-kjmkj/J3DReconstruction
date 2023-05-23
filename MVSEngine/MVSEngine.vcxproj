@@ -76,7 +76,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\openMVS\build\openCV\install\include;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\package\vs2015\openMVS\build\openCV\install\include;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -110,7 +110,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_WIN32;_HAS_EXCEPTIONS=1;_USE_OPENMP;_USE_OPENGL;_USE_BOOST;_USE_EIGEN;_USE_NONFREE;_USE_FAST_FLOAT2INT;_USE_FAST_CBRT;_USE_SSE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\openMVS\src;C:\openMVS\Boost\boost_1_67_0;C:\openMVS\Eigen;C:\openMVS\build\openCV\install\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\package\vs2015\openMVS\src;D:\package\vs2015\openMVS\Boost\boost_1_67_0;D:\package\vs2015\openMVS\Eigen;D:\package\vs2015\openMVS\build\openCV\install\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -127,7 +127,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:/openMVS/Boost/boost_1_67_0/lib64-msvc-14.1;C:\openMVS\build\openMVS\lib\vc15\x64\Debug;C:\openMVS\build\openCV\install\x64\vc15\lib;C:\openMVS\jpeg-9d;C:\openMVS\CGAL\auxiliary\gmp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\package\vs2015\openMVS\Boost\boost_1_67_0/lib64-msvc-14.1;D:\package\vs2015\openMVS\build\openMVS\lib\vc15\x64\Debug;D:\package\vs2015\openMVS\build\openCV\install\x64\vc15\lib;D:\package\vs2015\openMVS\jpeg-9d;D:\package\vs2015\openMVS\CGAL\auxiliary\gmp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>MVS.lib;Math.lib;IO.lib;Common.lib;libjpeg.lib;opencv_world341d.lib;opencv_img_hash341d.lib;libmpfr-4.lib;libgmp-10.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /FORCE:MULTIPLE</AdditionalOptions>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -167,7 +167,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>_CONSOLE;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_WIN32;_HAS_EXCEPTIONS=1;_USE_OPENMP;_USE_OPENGL;_USE_BOOST;_USE_EIGEN;_USE_NONFREE;_USE_FAST_FLOAT2INT;_USE_FAST_CBRT;_USE_SSE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\openMVS\src;C:\openMVS\Boost\boost_1_67_0;C:\openMVS\Eigen;C:\openMVS\build\openCV\install\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\package\vs2015\openMVS\src;D:\package\vs2015\openMVS\Boost\boost_1_67_0;D:\package\vs2015\openMVS\Eigen;D:\package\vs2015\openMVS\build\openCV\install\include</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <AdditionalOptions>/bigobj /Zm170 %(AdditionalOptions)</AdditionalOptions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -180,7 +180,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:/openMVS/Boost/boost_1_67_0/lib64-msvc-14.1;C:\openMVS\build\openMVS\lib\vc15\x64\Release;C:\openMVS\build\openCV\install\x64\vc15\lib;C:\openMVS\jpeg-9d;C:\openMVS\CGAL\auxiliary\gmp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\package\vs2015\openMVS\Boost\boost_1_67_0/lib64-msvc-14.1;D:\package\vs2015\openMVS\build\openMVS\lib\vc15\x64\Release;D:\package\vs2015\openMVS\build\openCV\install\x64\vc15\lib;D:\package\vs2015\openMVS\jpeg-9d;D:\package\vs2015\openMVS\CGAL\auxiliary\gmp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>MVS.lib;Math.lib;IO.lib;Common.lib;libjpeg.lib;opencv_world341.lib;opencv_img_hash341.lib;libmpfr-4.lib;libgmp-10.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /FORCE:MULTIPLE</AdditionalOptions>
